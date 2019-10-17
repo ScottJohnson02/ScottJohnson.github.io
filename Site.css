@@ -4,11 +4,16 @@
   box-sizing: border-box;
   font-family: "PT Serif",serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
   font-family: "Poppins",serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
 h1 {
@@ -16,19 +21,19 @@ h1 {
 	text-transform: uppercase;
 }
 
-body{
+body {
   background-image: url(images/circle-blues.png);
   font-size: 18px;
   text-align: center;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
 }
 
 
-article{
+article {
   padding: 1rem;
   margin: auto;
   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
@@ -37,14 +42,14 @@ article{
   color: darkblue;
   margin-top: 2rem;
 }
-p{
+p {
   color: darkblue;
   text-align: center;
 }
-nav a:hover{
+nav a:hover {
   border-color: white;
 }
-nav{
+nav {
   border: 1rem ridge grey;
   background-color: #474747;
   position: fixed;
@@ -56,11 +61,11 @@ nav{
   flex-direction: column;
   width: 15%;
 }
-nav .button{
+nav .button {
     padding: .2rem .2rem;
 }
 
-ul{
+ul {
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +73,7 @@ ul{
   list-style-type: none;
 
 }
-header{
+header {
   margin-top: 2rem;
   padding: 1rem;
 }
@@ -84,12 +89,8 @@ header{
     text-align: center;
     text-shadow: 0px 2px 3px #6666;
     font-size: 25px;
-
 }
-
-
-
-.projectID{
+.projectID {
   color: darkblue;
   margin: 5%;
   border: 1rem ridge grey;
@@ -97,20 +98,17 @@ header{
   flex-direction: column;
   padding: 1rem 1rem;
 }
-.projectID img{
+.projectID img {
   width: 100%;
 }
-div .button{
+div .button {
   padding: 1rem;
   border: 10px solid transparent;
-
-
 }
 a:hover {
   border-color: darkblue;
 }
-
-.projects-title{
+.projects-title {
   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
   color: darkblue;
   border: 1rem ridge grey;
@@ -118,20 +116,20 @@ a:hover {
   margin: auto;
   margin-top: 2rem;
 }
-.resume{
+.resume {
   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
   color: darkblue;
   border: 1rem ridge grey;
   text-align: center;
   padding: 1rem;
 }
-.resume a{
+.resume a {
   margin: auto;
 }
-footer p{
+footer p {
   color: white;
 }
-.downloads{
+.downloads {
   display:flex;
   width: 100%
 }
@@ -141,18 +139,19 @@ footer p{
   flex-wrap: nowrap;
   justify-content: space-around;
 }
-.downloads a{
+.downloads a {
   width: 40%;
   text-align: center;
 }
-#projects{
+#projects {
   padding: 1rem;
 }
-.projectID h2{
+.projectID h2 {
   text-align: center;
   color: darkblue;
   text-shadow: 1px 1px 0 #f0632a;
 }
+<<<<<<< HEAD
 .credit{
   color: white;
   font-size: 12px;
@@ -169,26 +168,21 @@ footer p{
 
 
 
+=======
+>>>>>>> dd8e4fe6b30ad4c19edbc1d4c63dbbcc2f0a5cc8
 /* Media Querys */
 @media screen and (min-width: 950px) and (max-width: 1400px){
-  nav .button{
+  nav .button {
     padding: 0rem 0rem;
-
-
   }
 }
 @media screen and (min-width: 800px) and (max-width: 949px){
-
-nav{
+nav {
     width: 20%
   }
 }
-
 /* Animation for my Name */
  @media screen and (min-width: 0px){
-
-
-
   span {
 
   	font: 50px "Oswald", sans-serif;
@@ -225,23 +219,23 @@ nav{
 }
 
  @media screen and (min-width: 0px) and (max-width: 799px){
-  .nav-ul{
+  .nav-ul {
     flex-direction: row;
     padding:0;
   }
-  .Projects{
+  .Projects {
     display: flex;
     flex-direction: column;
   }
 
-  nav{
+  nav {
     position: fixed;
     top:3px;
     width: 400px;
     padding: 0;
   }
 
-  nav .button{
+  nav .button {
     font-size: 20px;
     padding: 0rem 0rem;
     margin: 0;
