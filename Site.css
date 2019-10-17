@@ -138,6 +138,16 @@ a:hover {
   margin: auto;
 }
 
+.resume .button {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.python {
+  width: 50%;
+}
+
 footer p {
   color: white;
 }
@@ -194,6 +204,7 @@ footer p {
 /* Animation for my Name */
 @media screen and (min-width: 0px) {
   span {
+    color: white;
     font: 50px "Oswald", sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
