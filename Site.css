@@ -153,6 +153,13 @@ footer p{
   color: darkblue;
   text-shadow: 1px 1px 0 #f0632a;
 }
+.credit{
+  color: white;
+  font-size: 12px;
+}
+.credit a{
+  color: grey;
+}
 
 
 
