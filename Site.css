@@ -105,6 +105,14 @@ header {
 }
 
 .projectID img {
+  width: 75%;
+}
+
+.projectID p {
+  margin-left: auto;
+}
+
+.projectID a img {
   width: 100%;
 }
 
@@ -150,7 +158,8 @@ a:hover {
   width: 50%;
 }
 
-footer p {
+footer p,
+footer h3 {
   color: white;
 }
 
