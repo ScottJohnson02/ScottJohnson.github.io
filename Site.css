@@ -20,6 +20,8 @@ a {
 
 h1 {
   text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 3px 0 darkblue;
 }
 
 body {
@@ -29,6 +31,8 @@ body {
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0;
 }
@@ -129,7 +133,7 @@ a:hover {
   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
   color: darkblue;
   border: 1rem ridge grey;
-  width: 50%;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -184,10 +188,10 @@ footer h3 {
   padding: 1rem;
 }
 
-.projectID h2 {
+h2 {
   text-align: center;
   color: darkblue;
-  text-shadow: 1px 1px 0 #f0632a;
+  text-shadow: 1px 3px 0 #8CC739;
 }
 
 .credit {
@@ -228,78 +232,52 @@ p a {
   color: grey;
 }
 
+.nav-ul {
+  flex-direction: row;
+  padding: 0;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  flex-direction: column;
+}
+
+nav {
+  position: fixed;
+  top: 3px;
+  width: 100%;
+  padding: 0;
+}
+
+nav .button {
+  font-size: 20px;
+  padding: 0rem 1rem;
+  margin: 0;
+}
+
 /* Media Querys */
-@media screen and (min-width: 950px) and (max-width: 1400px) {
-  nav .button {
-    padding: 0rem 0rem;
-  }
-}
+@media screen and (min-width: 950px) and (max-width: 1400px) {}
 
-@media screen and (min-width: 800px) and (max-width: 949px) {
+@media screen and (min-width: 800px) and (max-width: 949px) {}
+
+@media screen and (min-width: 0px) and (max-width: 610px) {
   nav {
-    width: 20%
-  }
-}
-
-/* Animation for my Name */
-@media screen and (min-width: 0px) {
-  span {
-    color: white;
-    font: 50px "Oswald", sans-serif;
-    letter-spacing: 0;
-    padding: .25em 0 .325em;
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-    /* Clip Background Image */
-    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-    /* Animate Background Image */
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-    /* Activate hardware acceleration for smoother animations */
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-  }
-}
-
-/* Animate Background Image */
-@-webkit-keyframes aitf {
-  0% {
-    background-position: 0% 50%;
+    display: none;
   }
 
-  100% {
-    background-position: 100% 50%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 799px) {
-  .nav-ul {
-    flex-direction: row;
-    padding: 0;
+  article {
+    width: 90%;
   }
 
-  .Projects {
-    display: flex;
-    flex-direction: column;
+  .downloads a {
+    width: 100%;
   }
 
-  .social {
-    flex-direction: column;
-  }
-
-  nav {
-    position: fixed;
-    top: 3px;
-    width: 400px;
-    padding: 0;
-  }
-
-  nav .button {
-    font-size: 20px;
-    padding: 0rem 0rem;
-    margin: 0;
+  .resume a {
+    width: 100%;
   }
 }
