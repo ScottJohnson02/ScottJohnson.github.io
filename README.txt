@@ -1,1 +1,1 @@
-Project Contains HTML and CSS files for the midterm portfolio
+Project Contains HTML and CSS files for my personal portfolio
